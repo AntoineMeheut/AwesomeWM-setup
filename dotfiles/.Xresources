@@ -1,0 +1,36 @@
+! ============================================================================
+!  ~/.Xresources — palette urxvt vert phosphore (setup « Mr. Robot »)
+!  Charger : xrdb -merge ~/.Xresources
+! ============================================================================
+
+! Police monospace
+URxvt.font:           xft:Terminus:size=11
+URxvt.boldFont:       xft:Terminus:size=11:style=Bold
+URxvt.letterSpace:    0
+URxvt.scrollBar:      false
+URxvt.internalBorder: 6
+
+! Palette vert phosphore sur noir
+URxvt.background:     #000000
+URxvt.foreground:     #33ff33
+URxvt.cursorColor:    #33ff33
+URxvt.colorBD:        #66ff66
+URxvt.colorUL:        #00aa00
+
+! 16 couleurs : variations de vert
+URxvt*color0:  #000000
+URxvt*color1:  #007700
+URxvt*color2:  #33ff33
+URxvt*color3:  #66ff66
+URxvt*color4:  #007700
+URxvt*color5:  #33ff33
+URxvt*color6:  #66ff66
+URxvt*color7:  #aaffaa
+URxvt*color8:  #006600
+URxvt*color9:  #00aa00
+URxvt*color10: #33ff33
+URxvt*color11: #66ff66
+URxvt*color12: #00aa00
+URxvt*color13: #33ff33
+URxvt*color14: #66ff66
+URxvt*color15: #ccffcc
